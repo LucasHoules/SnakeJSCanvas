@@ -1,0 +1,52 @@
+/* Game */
+@font-face {
+	font-family: 'Sevenet 7 Cyr';
+	src:url('fonts/Sevenet 7 Cyr.ttf');
+}
+body
+{
+	padding: 0;
+	margin: 0;
+}
+canvas
+{
+	display: block;
+	background: #000;
+	border-top: 20px solid white;
+	border-bottom: 20px solid white;
+	margin: auto;
+}
+#bar
+{
+	width: 600px;
+	height: 80px;
+	background: purple;
+	margin: 0 auto;
+	border-bottom: 10px solid #bbb;
+	text-align: center;
+	color: #fff;
+	font-size: 20pt;
+	padding-top: 20px;
+	font-family: 'Sevenet 7 Cyr';
+
+}
+#score
+{
+	text-align: center;
+	border: none;
+	background: none;
+	font-size: 20pt;
+  margin-top: 2%;
+	font-family: 'Sevenet 7 Cyr';
+	color: #ECF0F1;
+}
+#level{
+	width: 600px;
+	height: 80px;
+	margin: auto;
+	background-color: black;
+	text-align: center;
+	font-family: 'Sevenet 7 Cyr';
+	color: purple;
+	font-size: 3em;
+}
